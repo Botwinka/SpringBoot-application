@@ -1,3 +1,9 @@
+# Run application:
+mvnw spring-boot:run
+
+
+
+
 # SpringBoot-application
 
 used tutorial:
@@ -9,4 +15,3 @@ TODO:
    - mvnw.cmd - ?
  - Why in "welcome pack" there is .mvn with wrapper. Why its not in pom.xml.
  - Remove wrapper from git repository.
- - Split application resources to diffrent languages.
