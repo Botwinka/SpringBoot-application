@@ -1,3 +1,13 @@
+#Working:
+npm install --save @angular/core@6.0.0
+ng update @angular/cli
+npm install --save typescript@2.7.2
+npm install --save @angular/router@6.0.0
+npm install --save @angular/platform-browser@6.0.0
+
+
+
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.

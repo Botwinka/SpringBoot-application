@@ -1,5 +1,14 @@
 <h2>Dog list</h2>
 
-<div *ngFor="let dog of dogs">
-  {{dog.name}}
-</div>
+<mat-card>
+  <mat-card-header></mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let dog of dogs">
+        <!--<img mat-list-avatar-->
+        <h3 mat-line>{{dog.name}}</h3>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
+
